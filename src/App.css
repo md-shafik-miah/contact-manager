@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.App {
+  text-align: center;
+  padding: 0px 10px;
+}
+
+/* ============== Add Contact ========== */
+.addContact {
+  margin-top: 50px;
+}
+.addContactTitle {
+  color: rgb(250, 10, 70);
+  text-align: center;
+  border: 2px solid rgb(16, 20, 6);
+  width: 200px;
+  margin: 0px auto;
+  background-color: rgb(216, 178, 11);
+  font-weight: bold;
+  box-shadow: 2px 2px 4px grey;
+  border-radius: 5px;
+}
+
+/* ====================== Contact Lists ============== */
+.ListStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(191, 191, 192) 
+}
+
+.deleteIcon {
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+.deleteIcon:hover {
+  color: white;
+}
